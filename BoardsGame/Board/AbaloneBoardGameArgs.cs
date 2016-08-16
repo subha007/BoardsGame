@@ -16,18 +16,20 @@ namespace BoardsGame
         {
             this.CirclesPerSide = 5;
             this.BorderBeam = 0;
+
+            this.Initialize(args);
         }
 
         protected override void Initialize(EnvArgumentsEngine args)
         {
             base.Initialize(args);
 
-            if (string.IsNullOrEmpty(args.Options.CirclesPerSide))
+            if (string.IsNullOrEmpty(args.Options.CirclesPerSide) == false)
             {
                 this.CirclesPerSide = Convert.ToInt32(args.Options.CirclesPerSide);
             }
 
-            if (string.IsNullOrEmpty(args.Options.BorderBeam))
+            if (string.IsNullOrEmpty(args.Options.BorderBeam) == false)
             {
                 this.BorderBeam = Convert.ToDouble(args.Options.BorderBeam);
             }

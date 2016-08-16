@@ -50,7 +50,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="GameBoardFactoryUT.cs" />
+    <Compile Include="AbaloneBoardFactoryUT.cs" />
     <Compile Include="ParameterArguementsUT.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

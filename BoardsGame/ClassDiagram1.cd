@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BoardsGame.Array2DProperty" Collapsed="true">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base\Array2DProperty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardsGame.CCPoint2D" Collapsed="true">
+    <Position X="16" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base\CCPoint2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardsGame.CCSpan" Collapsed="true">
+    <Position X="9" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAACIAAA=</HashCode>
+      <FileName>Base\CCSpan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardsGame.CCUnit2D" Collapsed="true">
+    <Position X="10.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>Base\CCUnit2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardsGame.CircleTiling" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAIAAAiAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base\CircleTiling.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardsGame.GamePiece" Collapsed="true">
+    <Position X="16" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base\GamePiece.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardsGame.OutPutStream" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAIAAASAAAQABAAAAAAAAAABAAAAAAQAAAABAAAA=</HashCode>
+      <FileName>Base\OutPutStream.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BoardsGame.Plane2DArray" Collapsed="true">
+    <Position X="16" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base\Plane2DArray.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardsGame.RegularCurve" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base\RegularCurve.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardsGame.RegularHexagon" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base\RegularHexagon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardsGame.RegularPolygon" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAgAACEAAQAAAAAAAAgAACAAAAAgEAYUAAAAAAA=</HashCode>
+      <FileName>Base\RegularPolygon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardsGame.Shape" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAgAAAEAAQAAQA=</HashCode>
+      <FileName>Base\Shape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardsGame.SVGStream" Collapsed="true">
+    <Position X="6.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAASAAAQABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base\SVGStream.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardsGame.Tiling" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAABAAAACAAA=</HashCode>
+      <FileName>Base\Tiling.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardsGame.Translation2DArray" Collapsed="true">
+    <Position X="16" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base\Translation2DArray.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardsGame.AbaloneBoardGameArgs" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAABAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Board\AbaloneBoardGameArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardsGame.AbaloneGame" Collapsed="true">
+    <Position X="3.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAACABoQAAAAAAAQAAAAAAACAIAAAAAAAABQA=</HashCode>
+      <FileName>Board\AbaloneGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardsGame.BoardGame" Collapsed="true">
+    <Position X="3.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAACAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Board\BoardGame.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BoardsGame.BoardGameArgs" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Board\BoardGameArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardsGame.AppConstants" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAACAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Common\AppConstants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardsGame.GameBoardFactory" Collapsed="true">
+    <Position X="14.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Factory\GameBoardFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardsGame.OutputStreamFactory" Collapsed="true">
+    <Position X="12.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\OutputStreamFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardsGame.ArgTypeAttribute" Collapsed="true">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAIAAQIAAAAAAAAAAAIAAIAAAAAAAAAACBAACA=</HashCode>
+      <FileName>Input\ArgTypeAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardsGame.EnvArgumentsEngine" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAABAAAA=</HashCode>
+      <FileName>Input\EnvArgumentsEngine.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BoardsGame.ParameterOptions" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAABAIAAAAAAAAAAAAAAABAACAIAEA=</HashCode>
+      <FileName>Input\ParameterOptions.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BoardsGame.Program" Collapsed="true">
+    <Position X="9" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardsGame.StringResource" Collapsed="true">
+    <Position X="14.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACgAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardsGame.ModuleInit" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Unity\ModuleInit.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BoardsGame.ModuleRegistrar" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Unity\ModuleRegistrar.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BoardsGame.UnityConsoleFactory" Collapsed="true">
+    <Position X="9" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Unity\UnityConsoleFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardsGame.UnityModuleLoader" Collapsed="true">
+    <Position X="10.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAQAAAAAAACAAAAABAA=</HashCode>
+      <FileName>Unity\UnityModuleLoader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardsGame.Input.ArgsTypeResource" Collapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABCAEAAQgABEAAAASAAAgAAAgAAgAAEAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardsGame.Properties.Resources" Collapsed="true">
+    <Position X="10.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardsGame.Properties.Settings" Collapsed="true">
+    <Position X="12.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="BoardsGame.IFileOutStream" Collapsed="true">
+    <Position X="16" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base\IFileOutStream.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BoardsGame.IBoardGame" Collapsed="true">
+    <Position X="14.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Board\IBoardGame.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BoardsGame.IAbstractGameFactory" Collapsed="true">
+    <Position X="9" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Factory\IAbstractGameFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BoardsGame.IAbstractOutputFactory" Collapsed="true">
+    <Position X="10.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Factory\IAbstractOutputFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BoardsGame.IArgumentsEngine" Collapsed="true">
+    <Position X="12.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Input\IArgumentsEngine.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BoardsGame.IParameterOptions" Collapsed="true">
+    <Position X="16" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Input\IParameterOptions.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BoardsGame.IOutput" Collapsed="true">
+    <Position X="12.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IOutput.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BoardsGame.IOutStream" Collapsed="true">
+    <Position X="14.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IOutStream.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BoardsGame.IModule" Collapsed="true">
+    <Position X="9" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Unity\IModule.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BoardsGame.IModuleRegistrar" Collapsed="true">
+    <Position X="10.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Unity\IModuleRegistrar.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

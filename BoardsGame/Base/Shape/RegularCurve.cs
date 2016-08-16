@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BoardsGame
 {
-    public interface IBoardGame : IOutput
+    public class RegularCurve : Shape
     {
     }
 }

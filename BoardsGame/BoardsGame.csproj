@@ -37,6 +37,10 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ExCSS, Version=2.0.7.0, Culture=neutral, PublicKeyToken=083c9b8a05122ede, processorArchitecture=MSIL">
+      <HintPath>..\packages\SR2.Web.ExCSS.2.0.7\lib\portable-net45+sl50+netcore45+wpa81+wp8\ExCSS.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll</HintPath>
       <Private>True</Private>
@@ -68,6 +72,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CSS\AbaloneBoardCSSCreator.cs" />
+    <Compile Include="CSS\CSSCreator.cs" />
     <Compile Include="Input\ArgsTypeResource.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -77,13 +83,15 @@
     <Compile Include="Input\ArgTypeAttribute.cs" />
     <Compile Include="Factory\IAbstractGameFactory.cs" />
     <Compile Include="Board\IBoardGame.cs" />
-    <Compile Include="Base\IFileOutStream.cs" />
+    <Compile Include="Base\Output\IFileOutStream.cs" />
     <Compile Include="Factory\IAbstractOutputFactory.cs" />
     <Compile Include="Input\IArgumentsEngine.cs" />
     <Compile Include="Input\ParameterOptions.cs" />
     <Compile Include="Input\IParameterOptions.cs" />
-    <Compile Include="IOutput.cs" />
-    <Compile Include="IOutStream.cs" />
+    <Compile Include="Base\Output\IOutput.cs" />
+    <Compile Include="Base\Output\IOutStream.cs" />
+    <Compile Include="Base\Shape\IShape2D.cs" />
+    <Compile Include="Base\Tile\ITiling2D.cs" />
     <Compile Include="Unity\ModuleRegistrar.cs" />
     <Compile Include="Unity\ModuleInit.cs" />
     <Compile Include="Unity\IModule.cs" />
@@ -94,21 +102,21 @@
       <DependentUpon>StringResource.resx</DependentUpon>
     </Compile>
     <Compile Include="Board\AbaloneBoardGameArgs.cs" />
-    <Compile Include="Base\Array2DProperty.cs" />
-    <Compile Include="Base\CCPoint.cs" />
-    <Compile Include="Base\CCSpan.cs" />
-    <Compile Include="Base\CCUnit.cs" />
-    <Compile Include="Base\CircleTiling.cs" />
+    <Compile Include="Base\Coordinate\Array2DProperty.cs" />
+    <Compile Include="Base\Coordinate\CCPoint2D.cs" />
+    <Compile Include="Base\Coordinate\CCSpan.cs" />
+    <Compile Include="Base\Coordinate\CCUnit2D.cs" />
+    <Compile Include="Base\Tile\CircleTiling.cs" />
     <Compile Include="Base\GamePiece.cs" />
-    <Compile Include="Base\OutPutStream.cs" />
-    <Compile Include="Base\Plane2DArray.cs" />
-    <Compile Include="Base\RegularCurve.cs" />
-    <Compile Include="Base\RegularHexagon.cs" />
-    <Compile Include="Base\RegularPolygon.cs" />
-    <Compile Include="Base\Shape.cs" />
-    <Compile Include="Base\SVGStream.cs" />
-    <Compile Include="Base\Tiling.cs" />
-    <Compile Include="Base\Translation2DArray.cs" />
+    <Compile Include="Base\Output\OutPutStream.cs" />
+    <Compile Include="Base\Coordinate\Plane2DArray.cs" />
+    <Compile Include="Base\Shape\RegularCurve.cs" />
+    <Compile Include="Base\Shape\RegularHexagon.cs" />
+    <Compile Include="Base\Shape\RegularPolygon.cs" />
+    <Compile Include="Base\Shape\Shape.cs" />
+    <Compile Include="Base\Output\SVGStream.cs" />
+    <Compile Include="Base\Tile\Tiling.cs" />
+    <Compile Include="Base\Coordinate\Translation2DArray.cs" />
     <Compile Include="Board\BoardGameArgs.cs" />
     <Compile Include="Board\AbaloneGame.cs" />
     <Compile Include="Board\BoardGame.cs" />
@@ -136,6 +144,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="ClassDiagram1.cd" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -152,6 +161,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Error\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CSS\abalone-board.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -8,7 +8,7 @@ namespace BoardsGame
 {
     public class BoardGameArgs
     {
-        public CCPoint Center { get; protected set; }
+        public CCPoint2D Center { get; protected set; }
         public double Radius { get; set; }
 
         public BoardGameArgs(EnvArgumentsEngine args)
@@ -20,7 +20,7 @@ namespace BoardsGame
         {
             string[] split = args.Options.Center.Split(new char[] { ',' }).Select(x => x.Trim()).ToArray();
 
-            this.Center = new CCPoint();
+            this.Center = new CCPoint2D();
             this.Center.X = Convert.ToDouble(split[0]);
             this.Center.Y = Convert.ToDouble(split[1]);
 
